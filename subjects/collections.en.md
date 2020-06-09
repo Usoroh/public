@@ -56,8 +56,8 @@ superTypeOf(str) //         -> 'String'
 superTypeOf(666) //         -> 'Number'
 superTypeOf(NaN) //         -> 'Number'
 superTypeOf(arr) //         -> 'Array'
-superTypeOf(null) //        -> 'null'
-superTypeOf(undefined) //   -> 'undefined'
+superTypeOf(null) //        -> 'Null'
+superTypeOf(undefined) //   -> 'Undefined'
 superTypeOf(superTypeOf) // -> 'Function'
 ```
 
